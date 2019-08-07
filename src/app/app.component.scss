@@ -1,0 +1,26 @@
+@import "../styles/tailwind.scss";
+.app {
+  @apply w-full;
+  @apply flex;
+  @apply flex-col;
+  @apply items-center;
+  &__title {
+    @apply font-bold;
+    @apply text-lg;
+  }
+  &__description {
+    @apply w-full;
+    @apply flex;
+    @apply flex-col;
+    @apply items-center;
+    h2 {
+      @apply text-lg;
+    }
+    li {
+      @apply mb-8;
+    }
+  }
+  &__subtitle {
+    @apply font-bold;
+  }
+}
